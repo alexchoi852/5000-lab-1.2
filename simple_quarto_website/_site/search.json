@@ -95,6 +95,6 @@
     "href": "slides/slides.html#game-results-in-a-season",
     "title": "Sports",
     "section": "Game Results in a Season",
-    "text": "Game Results in a Season\n\n\n\n\n\n\n\nHorvat, Tomislav, and Josip Job. 2020. “The Use of Machine Learning in Sport Outcome Prediction: A Review.” Wiley Interdisciplinary Reviews: Data Mining and Knowledge Discovery 10 (5): e1380."
+    "text": "Game Results in a Season\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\ngames = list(range(1, 26))  \nteam_A_scores = np.random.randint(70, 130, 25) \nteam_B_scores = np.random.randint(70, 130, 25) \n\nplt.figure(figsize=(10, 6))\nplt.plot(games, team_A_scores, marker='o', label='Team A', color='blue')\nplt.plot(games, team_B_scores, marker='o', label='Team B', color='red')\nplt.xlabel('Game Number')\nplt.ylabel('Score')\nplt.legend()\nplt.show()\n\n\n\n\n\n\n\n\nHorvat, Tomislav, and Josip Job. 2020. “The Use of Machine Learning in Sport Outcome Prediction: A Review.” Wiley Interdisciplinary Reviews: Data Mining and Knowledge Discovery 10 (5): e1380."
   }
 ]
