@@ -7,12 +7,12 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - about.ipynb
+      - slides/slides.ipynb
 
 format:
   html:
     theme: cosmo
-    css: styles.css
     toc: true
 
 

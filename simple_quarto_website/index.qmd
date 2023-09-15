@@ -2,6 +2,83 @@
 title: "simple_quarto_website"
 ---
 
-This is a Quarto website.
+---
+bibliography: reference.bib
+---
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+## Favorite Books 
+
+* Lorem ipsum dolor sit ametconsectetur adipiscing elit\
+* sed do eiusmod tempor incididunt ut labore et dolore magna aliqua\
+* Tellus orci ac auctor augue mauris augue\
+* Nunc scelerisque viverra mauris in aliquam sem fringilla ut\
+* Non tellus orci ac auctor
+
+
+## Executive Branch vs Legislative Branch
+
+:::: {.columns}
+::: {.column width="50%"}
+### Executive Branch
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cras tincidunt lobortis feugiat vivamus. Id leo in vitae turpis massa sed elementum tempus. Dignissim diam quis enim lobortis scelerisque fermentum dui faucibus. Sagittis id consectetur purus ut faucibus. Posuere urna nec tincidunt praesent semper feugiat nibh sed pulvinar. Id volutpat lacus laoreet non curabitur gravida. Amet venenatis urna cursus eget nunc. Semper eget duis at tellus at. Commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend. Pharetra convallis posuere morbi leo urna molestie. Aliquam faucibus purus in massa tempor nec feugiat. Libero nunc consequat interdum varius sit amet mattis vulputate enim. Et tortor at risus viverra adipiscing. Augue lacus viverra vitae congue eu consequat ac felis. Volutpat diam ut venenatis tellus in. Accumsan tortor posuere ac ut. Pretium aenean pharetra magna ac. Risus in hendrerit gravida rutrum quisque.
+:::
+
+::: {.column width="50%"}
+### Legislative Branch
+Nunc lobortis mattis aliquam faucibus purus in massa tempor nec. Purus in mollis nunc sed id semper risus in. Arcu ac tortor dignissim convallis aenean et. Mauris augue neque gravida in fermentum et sollicitudin ac orci. Condimentum mattis pellentesque id nibh tortor id aliquet lectus. Tincidunt arcu non sodales neque sodales ut etiam sit amet. Euismod elementum nisi quis eleifend. Lorem ipsum dolor sit amet consectetur adipiscing elit. Nulla facilisi cras fermentum odio. Etiam tempor orci eu lobortis elementum nibh tellus molestie nunc. Nunc vel risus commodo viverra maecenas accumsan lacus vel facilisis. Mattis molestie a iaculis at erat pellentesque adipiscing commodo. Nulla aliquet porttitor lacus luctus accumsan tortor. Blandit libero volutpat sed cras ornare.
+
+:::
+::::
+
+
+## Blog
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis at consectetur lorem donec. Non pulvinar neque laoreet suspendisse. Sem viverra aliquet eget sit amet tellus cras adipiscing. Neque gravida in fermentum et sollicitudin ac orci phasellus[^1]. Convallis aenean et tortor at risus viverra. Morbi tincidunt augue interdum velit euismod in pellentesque. Egestas sed sed risus pretium quam vulputate dignissim. A condimentum vitae sapien pellentesque. Non sodales neque sodales ut. Based on the findings from [@steffen2015planetary], ultrices eros in cursus turpis massa. Elit ut aliquam purus sit amet luctus venenatis lectus. In cursus turpis massa tincidunt dui ut ornare. Risus pretium quam vulputate dignissim. Commodo nulla facilisi nullam vehicula. Pellentesque massa placerat duis ultricies lacus sed turpis.
+
+
+## Random
+
+
+| North America | Europe | Asia |
+|:-------------|:--------------:|--------------:|
+| Canada     | France      | China     |
+| United States of America    | Spain       |  South Korea     |
+
+
+Inline-math LaTex equation:
+
+$3x^2 - 5x + 2 = 0$
+
+
+
+Non inline-math LaTex equation:
+$$f(x) = \frac{3x}{x + 7}$$
+
+
+>This is my quote. I am working on this lab.
+
+
+![Library of Congress](https://dcist.com/wp-content/uploads/sites/3/2020/02/library-of-Congress-Image-10.jpg)
+
+
+
+![Dolphin](https://www.americanoceans.org/wp-content/uploads/2022/03/What-Are-The-Different-Types-of-Dolphins.jpg)
+
+
+
+{{< video https://www.youtube.com/watch?v=xqyUdNxWazA width=“800” height=“500” >}}
+
+
+
+```{mermaid}
+%%| fig-cap: "A Mermaid diagram"
+%%| code-fold: false
+flowchart LR
+  A[Chapter 1] --> B(Chapter 2)
+  B --> C{Chapter 3}
+  C --> D[Section 1]
+  C --> E[Section 2]
+```
+
+
+[^1]: This is where the footnote is.
