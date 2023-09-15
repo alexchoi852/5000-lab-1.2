@@ -81,13 +81,20 @@
     "href": "slides/slides.html#tennis",
     "title": "Sports",
     "section": "Tennis",
-    "text": "Tennis\n\nA racket sport that is played either individually against a single opponent or between two teams of two players each\nThe findings from (Horvat and Job 2020) can help find more insights into analyzing this sport and its outcomes"
+    "text": "Tennis\n\nA racket sport that is played either individually against a single opponent or between two teams of two players each\nThe findings from (Horvat and Job 2020) can help people predict outcomes of future tournaments more accurately and can lead to more insights towards effectively analyzing player performance and history."
   },
   {
     "objectID": "slides/slides.html#baseball",
     "href": "slides/slides.html#baseball",
     "title": "Sports",
     "section": "Baseball",
-    "text": "Baseball\n\nA game played with a bat, a ball, and gloves between two teams of nine players each on a field with four white bases laid out in a diamond\n\n\n\nBaseball\n\n\n\n\n\nShooting Percentage: 60.0%\n\n\n\n\n\n\n\n\nHorvat, Tomislav, and Josip Job. 2020. “The Use of Machine Learning in Sport Outcome Prediction: A Review.” Wiley Interdisciplinary Reviews: Data Mining and Knowledge Discovery 10 (5): e1380."
+    "text": "Baseball\n\nA game played with a bat, a ball, and gloves between two teams of nine players each on a field with four white bases laid out in a diamond\n\n\n\nBaseball"
+  },
+  {
+    "objectID": "slides/slides.html#game-results-in-a-season",
+    "href": "slides/slides.html#game-results-in-a-season",
+    "title": "Sports",
+    "section": "Game Results in a Season",
+    "text": "Game Results in a Season\n\n\n\n\n\n\n\nHorvat, Tomislav, and Josip Job. 2020. “The Use of Machine Learning in Sport Outcome Prediction: A Review.” Wiley Interdisciplinary Reviews: Data Mining and Knowledge Discovery 10 (5): e1380."
   }
 ]

@@ -1,8 +1,6 @@
 ---
 title: "simple_quarto_website"
----
 
----
 bibliography: reference.bib
 ---
 
